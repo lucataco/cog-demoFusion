@@ -60,7 +60,7 @@ class Predictor(BasePredictor):
         ),
         stride: int = Input(
             description="The stride of moving local patches",
-            default=16,
+            default=64,
         ),
         cosine_scale_1: float = Input(
             description="Control the strength of skip-residual",
